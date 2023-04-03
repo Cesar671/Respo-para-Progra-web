@@ -1,0 +1,25 @@
+Instalacion de Apache en Linux Mint
+
+
+Lo que hicimos fue primeramente entrar al navegador, luego ingresar a la pagina
+gitlab.com para poder descargar nuestro proyecto como se aprecia en la Foto 1.
+
+
+Luego buscamos nuestro proyecto para poder hacer la descarga correcta y le damos
+click en nuestro proyecto, se puede apreciar en la Foto 2.
+
+
+Buscamos varios tutoriales, y al fin uno resulto ser util, puede que por el tiempo, falta de actualizaciones y muchos otros motivos fue la causa de que la mayoria de los tutoriales no funcionasen, pero aqui les comentaremos cual usamos.
+
+
+Como se puede fijar en la Foto 3, vamos a instalar Apache entonces seguimos los pasos como se muestra, usamos el comando:
+
+sudo apt-get install apache2 -y
+
+luego usamos el comando:
+
+sudo apt-get install lamp-server^
+
+sudo systemcll enable apache2
+
+y en la Foto 4 se puede apreciar que todo salio a la perfecion.

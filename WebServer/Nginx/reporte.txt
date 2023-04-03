@@ -1,0 +1,23 @@
+Instalacion de NGINX en Linux Mint:
+
+Para comenzar la instalacion de NGINX en Linux Mint debemos abrir el terminal con el atajo "ctrl + alt + t" una vez abierto el terminal podemos usar el siguiente comando:
+
+	sudo apt-get install python-software-properties
+
+luego usamos el comando:
+
+	sudo add-apt-repository ppa.nginx/stable
+
+a continuacion vamos a actualizar con el comando:
+
+	sudo apt-get update
+
+posteriormente usamos el comando:
+
+sudo apt-get install nginx
+
+con esto ya estaria instalado nuestro NGINX, ahora para poder verificar usamos el comando:
+
+	sudo service nginx status
+
+luego podemos redirigirnos a un navegar cualquiera, y escribimos localhost en la barra de url, finalmente como usted podra observar todo muestra que esta funcionando bien.

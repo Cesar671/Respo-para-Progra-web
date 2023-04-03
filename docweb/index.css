@@ -1,0 +1,169 @@
+body
+{
+    background: lightblue url("pc.jpg") no-repeat fixed center;
+}
+
+hr  
+{
+    color: white;
+}
+
+#main-i
+{
+    padding: 0px;
+    position: relative;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color : #26201C;
+    opacity: .95;
+    color: white    ;
+    text-align: center  ;
+}
+
+nav
+{
+    position: fixed relative;   
+    padding: 0px;
+    width: 100%;
+    background-color: #26201C;
+    border-style: initial;
+    border-color: ivory;
+    font-size: 90%;
+    display: inline-block;
+}
+
+
+
+
+
+
+footer
+{
+    width: 100%;
+    background: #26201C;
+	color : white;	
+}
+
+.contenedorP
+{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    
+}
+.contenedor1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.columna1
+{
+    max-width: 400px;
+}
+.columna1 h1
+{
+    font-size: 20px;
+}
+.columna1 p
+{
+    font-size: 15px;
+    color: gray;
+    margin-top: 20PX;
+}
+ .columna2
+{
+    max-width: 400px;
+}
+.columna2 h1
+{
+    font-size: 20px;
+}
+.fila
+{
+    margin-top: 20px;
+    display: flex;
+}
+.fila img
+{
+    width: 36px;
+    height: 36px;
+}
+.fila label
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: gray;
+}
+.columna3
+{
+    max-width: 400px;
+}
+.columna3 h1
+{
+    font-size: 20px;
+}
+.fila2
+{
+    margin-top: 20px;
+    display: flex;
+}
+.fila2 img
+{
+    width: 36px;
+    height: 36px;
+}
+.fila2 label
+{
+    margin-top: 10;
+    margin-left: 20px;
+    max-width: 140px;
+}
+.contenedor2
+{
+   width: 100%;
+   background: RGB(100,100,100);
+   display: flex;
+   justify-content: space-between;
+   padding: auto;
+}
+.cont
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.inf
+{
+    color: gray;
+}
+.inf a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.inf2 a
+{
+    text-decoration: none;
+    color: white;
+}
+@media screen  and (max-width:1100px)
+{
+    .contenedor1
+    {
+        flex-wrap: wrap;
+    }
+    .columna2 .columna3
+    {
+        margin-top: 40px;
+    }
+}
+
+#colabora-container
+{
+    font-size: 30px;
+}

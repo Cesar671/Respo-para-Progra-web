@@ -1,0 +1,35 @@
+#nav-ul
+{
+    text-align: center;
+    display: inline-block;
+    width: 65%;
+    color: black;
+}
+
+#container-nav form
+{
+    display: inline-block;
+}
+
+.nav-li
+{
+    position: relative;
+    display: inline-block;
+    padding: 1%;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+}
+
+.nav-li a
+{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.nav-li:hover
+{
+    background-color: #26201C;
+    color: white;
+}
